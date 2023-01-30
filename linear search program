@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 int main()
 {
   int array[100], search, c, n;
@@ -11,7 +11,7 @@ int main()
   scanf("%d", &search);
   for (c = 0; c < n; c++)
   {
-    if (array[c] == search)    /* If required element is found */
+    if (array[c] == search)   
     {
       printf("%d is present at location %d.\n", search, c+1);
       break;
